@@ -1,0 +1,1078 @@
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome Back!</h1>
+        <p>Please log in to your account.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Login</h2>
+
+            <form action="#" method="post">
+
+                <p>
+                    <label for="username">Email or Username:</label><br>
+                    <input
+                        type="text"
+                        id="username"
+                        name="username"
+                        placeholder="Enter your email or username"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="password">Password:</label><br>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Enter your password"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <input
+                        type="checkbox"
+                        id="remember"
+                        name="remember"
+                    >
+                    <label for="remember">Remember Me</label>
+                </p>
+
+                <p>
+                    <button type="submit">Login</button>
+                </p>
+
+                <p>
+                    <a href="#">Forgot Password?</a>
+                </p>
+
+                <p>
+                    Don't have an account?
+                    <a href="#">Sign Up</a>
+                </p>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Login Page. All rights reserved.</p>
+    </footer>
+
+</body>
+<!-- </html> -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sign in to your account">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Sign In | Your Company</title>
+</head>
+<body>
+
+  <header>
+    <h1>Your Company</h1>
+    <p>Welcome back. Please sign in to continue.</p>
+  </header>
+
+  <main>
+    <form action="/login" method="post" autocomplete="on">
+      <fieldset>
+        <legend>Sign in to your account</legend>
+
+        <p>
+          <label for="email">Email address</label><br>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="you@example.com"
+            autocomplete="username"
+            required
+            autofocus>
+        </p>
+
+        <p>
+          <label for="password">Password</label><br>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+            autocomplete="current-password"
+            minlength="8"
+            required>
+        </p>
+
+        <p>
+          <input type="checkbox" id="remember" name="remember" value="yes">
+          <label for="remember">Keep me signed in</label>
+        </p>
+
+        <p>
+          <button type="submit">Sign In</button>
+        </p>
+
+        <p>
+          <a href="/forgot-password">Forgot your password?</a>
+        </p>
+      </fieldset>
+    </form>
+
+    <p>
+      Don't have an account?
+      <a href="/register">Create one</a>
+    </p>
+  </main>
+
+  <footer>
+    <nav aria-label="Legal">
+      <a href="/privacy">Privacy Policy</a> |
+      <a href="/terms">Terms of Service</a> |
+      <a href="/support">Help &amp; Support</a>
+    </nav>
+    <p><small>&copy; 2026 Your Company. All rights reserved.</small></p>
+  </footer>
+
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Login Page</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .login-container {
+            background-color: white;
+            width: 100%;
+            max-width: 400px;
+            padding: 35px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #777;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+
+        input:focus {
+            outline: 2px solid #667eea;
+            border-color: #667eea;
+        }
+
+        .options {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 25px;
+            font-size: 13px;
+        }
+
+        .remember {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            color: #555;
+        }
+
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .login-button {
+            width: 100%;
+            padding: 13px;
+            background-color: #667eea;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .login-button:hover {
+            background-color: #5365cc;
+        }
+
+        .signup {
+            text-align: center;
+            margin-top: 25px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        @media (max-width: 480px) {
+            .login-container {
+                padding: 25px 20px;
+            }
+
+            .options {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="login-container">
+        <h1>Welcome Back!</h1>
+        <p class="subtitle">Please login to your account</p>
+
+        <form action="#" method="post">
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    autocomplete="email"
+                    required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Enter your password"
+                    autocomplete="current-password"
+                    required>
+            </div>
+
+            <div class="options">
+                <label class="remember">
+                    <input type="checkbox" name="remember">
+                    Remember Me
+                </label>
+
+                <a href="#">Forgot Password?</a>
+            </div>
+
+            <button type="submit" class="login-button">
+                Login
+            </button>
+
+        </form>
+
+        <p class="signup">
+            Don't have an account?
+            <a href="#">Sign Up</a>
+        </p>
+    </main>
+
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Style Shopping Page</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e3e6e6;
+        }
+
+        /* First Header */
+        .header {
+            background-color: #131921;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 18px;
+            padding: 14px 20px;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            color: white;
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .logo span {
+            color: #ff9900;
+        }
+
+        .search-bar {
+            display: flex;
+            flex: 1;
+            min-width: 200px;
+            height: 40px;
+        }
+
+        .search-bar input {
+            width: 100%;
+            min-width: 0;
+            padding: 10px;
+            border: none;
+            font-size: 15px;
+        }
+
+        .search-bar button {
+            background-color: #febd69;
+            border: none;
+            padding: 0 18px;
+            font-size: 19px;
+            cursor: pointer;
+        }
+
+        .header-item {
+            color: white;
+            text-decoration: none;
+            font-size: 13px;
+            white-space: nowrap;
+        }
+
+        .header-item strong {
+            display: block;
+            font-size: 15px;
+            margin-top: 4px;
+        }
+
+        /* Second Header */
+        .navbar {
+            background-color: #232f3e;
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            padding: 13px 20px;
+            flex-wrap: wrap;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        /* Welcome Banner */
+        .banner {
+            background: linear-gradient(120deg, #dceeff, #ffffff);
+            text-align: center;
+            padding: 50px 20px;
+            margin: 20px;
+            border-radius: 5px;
+        }
+
+        .banner h1 {
+            color: #131921;
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        .banner p {
+            color: #444;
+            font-size: 17px;
+        }
+
+        /* Product Categories */
+        .products {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 20px;
+            padding: 0 20px 25px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 25px 15px;
+            text-align: center;
+            border-radius: 4px;
+            min-height: 220px;
+        }
+
+        .card h2 {
+            color: #222;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .product-icon {
+            font-size: 55px;
+            margin-bottom: 20px;
+        }
+
+        .card a {
+            color: #007185;
+            text-decoration: none;
+        }
+
+        .card a:hover {
+            color: #c7511f;
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #131921;
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+            line-height: 2;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 13px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 900px) {
+            .products {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (max-width: 600px) {
+            .header {
+                justify-content: center;
+            }
+
+            .search-bar {
+                flex-basis: 100%;
+                order: 2;
+            }
+
+            .navbar {
+                gap: 15px;
+            }
+
+            .banner h1 {
+                font-size: 25px;
+            }
+
+            .products {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- First Header Bar
+    <header class="header">
+
+        <a href="#" class="logo">
+            261FJ01035<span>⌣</span>
+        </a>
+
+        <form class="search-bar" action="#" method="get">
+            <input
+                type="search"
+                name="search"
+                placeholder="Search Amazon"
+                aria-label="Search products">
+
+            <button type="submit" aria-label="Search">🔍</button>
+        </form>
+
+        <a href="#" class="header-item">
+            Hello, Sign In
+            <strong>Account & Lists</strong>
+        </a>
+
+        <a href="#" class="header-item">
+            Returns
+            <strong>& Orders</strong>
+        </a>
+
+        <a href="#" class="header-item">
+            <strong>🛒 Cart</strong>
+        </a>
+
+    </header>
+
+    <Second Header Bar -->
+    <!-- <nav class="navbar">
+        <a href="#">☰ All</a>
+        <a href="#">Prime Video</a>
+        <a href="#">Coupons</a>
+        <a href="#">Customer Service</a>
+        <a href="#">Today's Deals</a>
+        <a href="#">Registry</a>
+        <a href="#">Gift Cards</a>
+        <a href="#">Sell</a>
+    </nav>
+
+    < Main Banner -->
+    <!-- <section class="banner">
+        <h1>Welcome to Online Shopping</h1>
+        <p>Discover your favorite products at amazing prices!</p>
+        <a href="#products" class="shop-button">
+            start shopping
+        </a>
+    </section>
+
+    < Product Cards -->
+    <!-- <main class="products">
+
+        <section class="card">
+            <h2>Electronics</h2>
+            <div class="product-icon">💻</div>
+            <a href="#">Explore Electronics</a>
+        </section>
+
+        <section class="card">
+            <h2>Fashion</h2>
+            <div class="product-icon">👗</div>
+            <a href="#">Explore Fashion</a>
+        </section>
+
+        <section class="card">
+            <h2>Home & Kitchen</h2>
+            <div class="product-icon">🏠</div>
+            <a href="#">Explore Home Products</a>
+        </section>
+
+        <section class="card">
+            <h2>Books</h2>
+            <div class="product-icon">📚</div>
+            <a href="#">Explore Books</a>
+        </section>
+
+    </main>
+
+    < Footer -->
+    <!-- <footer>
+        <p>Amazon-Style Shopping Website</p>
+
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="#">Privacy Policy</a>
+
+        <p> 2026 Shopping Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.in - Online Shopping</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e3e6e6;
+        }
+
+        /* Main Header */
+        .header {
+            background-color: #131921;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 10px 16px;
+            min-height: 70px;
+        }
+
+        .logo {
+            font-size: 29px;
+            font-weight: bold;
+            color: white;
+            white-space: nowrap;
+        }
+
+        .logo span {
+            font-size: 15px;
+            font-weight: normal;
+        }
+
+        .location {
+            font-size: 12px;
+            min-width: 155px;
+        }
+
+        .location strong {
+            display: block;
+            font-size: 14px;
+        }
+
+        /* Search Bar */
+        .search {
+            display: flex;
+            height: 46px;
+            flex: 1;
+            min-width: 180px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .search select {
+            width: 60px;
+            border: none;
+            padding: 8px;
+            background: #e6e6e6;
+        }
+
+        .search input {
+            flex: 1;
+            min-width: 0;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            outline: none;
+        }
+
+        .search button {
+            width: 53px;
+            border: none;
+            background-color: #febd69;
+            font-size: 25px;
+            cursor: pointer;
+        }
+
+        .header-item {
+            font-size: 12px;
+            white-space: nowrap;
+        }
+
+        .header-item strong {
+            display: block;
+            font-size: 14px;
+        }
+
+        .language {
+            font-size: 14px;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+        .cart {
+            font-size: 18px;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+        /* Second Navigation Bar */
+        .navbar {
+            background-color: #232f3e;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            padding: 12px 22px;
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .navbar a:hover {
+            border: 1px solid white;
+            padding: 4px;
+        }
+
+        .festival {
+            margin-left: auto;
+            font-size: 19px;
+            font-weight: bold;
+        }
+
+        /* Festival Deal Cards */
+        .deals {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 10px;
+            padding: 15px 18px;
+        }
+
+        .card {
+            min-height: 475px;
+            border-radius: 18px 18px 0 0;
+            overflow: hidden;
+            padding: 15px;
+            color: white;
+            position: relative;
+            text-align: center;
+        }
+
+        .orange {
+            background: linear-gradient(180deg, #ff6a00, #ff3d00);
+        }
+
+        .red {
+            background: linear-gradient(180deg, #c81731, #a90029);
+        }
+
+        .pink {
+            background: linear-gradient(180deg, #b00072, #79004f);
+        }
+
+        .yellow {
+            background: linear-gradient(180deg, #ffb000, #ff9200);
+            color: black;
+        }
+
+        .card h1 {
+            font-size: clamp(21px, 2.5vw, 36px);
+            line-height: 1.1;
+            margin-bottom: 12px;
+            text-align: left;
+        }
+
+        .card h2 {
+            font-size: 24px;
+            margin: 15px 0;
+        }
+
+        .card p {
+            text-align: left;
+            font-size: 15px;
+            line-height: 1.4;
+            margin: 12px 0;
+        }
+
+        .deal-image {
+            width: 100%;
+            height: 205px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 95px;
+            margin: 15px 0;
+        }
+
+        .festival-logo {
+            border: 3px solid #ffcf55;
+            border-radius: 50%;
+            background: #fff6e6;
+            color: #a50037;
+            padding: 18px 8px;
+            font-size: 22px;
+            font-weight: bold;
+            width: 160px;
+            margin: 12px auto;
+        }
+
+        .ribbon {
+            background: #ffdf80;
+            color: #a40025;
+            font-weight: bold;
+            padding: 6px;
+            margin-top: 10px;
+            font-size: 13px;
+        }
+
+        .cashback {
+            background: #d92b00;
+            color: white;
+            font-weight: bold;
+            padding: 5px;
+            margin-top: 5px;
+            font-size: 13px;
+        }
+
+        .bank {
+            background: white;
+            color: #111;
+            padding: 10px 4px;
+            margin-top: 10px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1000px) {
+            .location,
+            .language {
+                display: none;
+            }
+
+            .header {
+                gap: 10px;
+            }
+
+            .deals {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (max-width: 550px) {
+            .header {
+                flex-wrap: wrap;
+            }
+
+            .search {
+                order: 3;
+                flex-basis: 100%;
+            }
+
+            .header-item {
+                font-size: 10px;
+            }
+
+            .header-item strong {
+                font-size: 12px;
+            }
+
+            .navbar {
+                gap: 18px;
+            }
+
+            .festival {
+                display: none;
+            }
+
+            .deals {
+                grid-template-columns: 1fr;
+            }
+
+            .card {
+                min-height: 420px;
+            }
+
+            .card h1 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Main Header -->
+    <header class="header">
+
+        <div class="logo">
+            amazon<span>.in~</span>
+        </div>
+
+        <div class="location">
+            Delivering to Guntur 522213
+            <strong>📍 Update location</strong>
+        </div>
+
+        <div class="search">
+            <select aria-label="Search category">
+                <option>All</option>
+                <option>Fashion</option>
+                <option>Electronics</option>
+                <option>Books</option>
+            </select>
+
+            <input type="text" placeholder="Search Amazon.in">
+
+            <button type="button" aria-label="Search">⌕</button>
+        </div>
+
+        <div class="language">🇮🇳 EN⌄</div>
+
+        <div class="header-item">
+            Hello, sign in
+            <strong>Account &amp; Lists ⌄</strong>
+        </div>
+
+        <div class="header-item">
+            Returns
+            <strong>&amp; Orders</strong>
+        </div>
+
+        <div class="cart">
+            🛒 Cart
+        </div>
+
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="#">☰ All</a>
+        <a href="#">prime video</a>
+        <a href="#">Amazon Pay</a>
+        <a href="#">Mobiles</a>
+        <a href="#">Today's Deals</a>
+        <a href="#">Coupons</a>
+        <a href="#">Flights</a>
+        <a href="#">Electronics</a>
+        <a href="#">New Releases</a>
+
+        <div class="festival">
+            🪔 Great Indian Festival | Live Now ❯
+        </div>
+    </nav>
+
+    <!-- Festival Deal Banners -->
+    <main class="deals">
+
+        <!-- Card 1 -->
+        <section class="card orange">
+            <div class="festival-logo">
+                Great Indian<br>Festival
+                <hr>
+                <small>Diwali Edition</small>
+            </div>
+
+            <h2>Last Chance Deals</h2>
+
+            <h2>Get 35% cashback<br>up to ₹150*</h2>
+
+            <p>
+                Free Delivery<br>
+                Easy Returns
+            </p>
+
+            <div class="deal-image">🪔 🎁 ✨</div>
+
+            <div class="ribbon">Great Indian Festival | Diwali Edition</div>
+            <div class="cashback">35% cashback up to ₹150</div>
+            <div class="bank">HDFC BANK | 10% Instant Discount*</div>
+        </section>
+
+        <!-- Card 2 -->
+        <section class="card red">
+            <h1>Women's fashion under ₹499</h1>
+
+            <p>Free Delivery　 |　 Easy Returns</p>
+
+            <div class="deal-image">👗 👡 💍</div>
+
+            <div class="ribbon">Last Chance Deals</div>
+            <div class="ribbon">Great Indian Festival | Diwali Edition</div>
+            <div class="cashback">35% cashback up to ₹150</div>
+            <div class="bank">HDFC BANK | 10% Instant Discount*</div>
+        </section>
+
+        <!-- Card 3 -->
+        <section class="card pink">
+            <h1>Under ₹499 Facewashes</h1>
+
+            <p>Free Delivery　 |　 Latest Trends</p>
+
+            <div class="deal-image">🧴 🧴 🧴</div>
+
+            <div class="ribbon">Last Chance Deals</div>
+            <div class="ribbon">Great Indian Festival | Diwali Edition</div>
+            <div class="cashback">35% cashback up to ₹150</div>
+            <div class="bank">HDFC BANK | 10% Instant Discount*</div>
+        </section>
+
+        <!-- Card 4 -->
+        <section class="card yellow">
+            <h1>Under ₹999</h1>
+
+            <p>Deals on kitchen essentials</p>
+
+            <p>Free Delivery<br>
+               On first 3 orders*　 |　 Easy Returns</p>
+
+            <div class="deal-image">🍳 🥘 🍲</div>
+
+            <div class="ribbon">Last Chance Deals</div>
+            <div class="ribbon">Great Indian Festival | Diwali Edition</div>
+            <div class="cashback">35% cashback up to ₹150</div>
+            <div class="bank">HDFC BANK | 10% Instant Discount*</div>
+        </section>
+
+    </main>
+
+</body>
+</html>
+
